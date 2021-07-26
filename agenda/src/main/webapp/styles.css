@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,400&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+h1 {
+	color: red;
+}
+
+.btn1 {
+	text-decoration: none;
+	background-color: red;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	font-size: 1.2em;
+	font-weight: 650;
+	border-radius: 5px;
+	border: 0px;
+	cursor: pointer;
+}
+
+
+.btn2 {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	font-size: 1.2em;
+	font-weight: 650;
+	border-radius: 5px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.campo1{
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+.campo2{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+#campo3{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid black;	
+}
+
+#table{
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+#table thead{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background: red;
+	color: #fff;
+}
+
+#table td{
+	border: 1px solid #ddd;
+	padding: 10px;
+}

@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Criar Contato</title>
+	<link rel="icon" href="images/calendar.png">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>Criar novo contato</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Digite seu nome" class="campo1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="telefone" class="campo2" placeholder="Digite seu Telefone"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email" placeholder="Digite seu Email" class="campo1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="btn1" onclick="validar()">
+	</form>
+	<script type="text/javascript" src="scripts/validador.js"></script>
+</body>
+</html>
